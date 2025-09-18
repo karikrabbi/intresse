@@ -1,7 +1,7 @@
 body{
     background-color: black;
     background-image: url(lobter.jpg);
-    background-repeat: no-repeat;
+  
     background-size: cover;
     padding: 0%;
     margin: 0%;
@@ -41,7 +41,6 @@ a, a:visited, a:active{
 }
 .int1{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     flex-direction: column;
     color: rgb(47, 19, 19);
@@ -49,7 +48,11 @@ a, a:visited, a:active{
     padding: 0%;
     margin: 0%;
     height: 100vh;
-    width: 100vw;
+    width: 30vw;
+    background-color: white;
+    margin-left: 35%;
+    border:5px solid rgb(194, 245, 188);
+    text-align: center;
 }
 .contact{
     display: flex;
@@ -74,4 +77,20 @@ a, a:visited, a:active{
         height: 75px;
         font-size: 12px;
     }
+}
+
+.imga{
+    width: 20vw;
+    height: 25vh;
+}
+
+.brod{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    height: 100vh;
+    background-color: white;
+    font-size: large;
+    border: 5px solid rgb(194, 245, 188);
+
 }
