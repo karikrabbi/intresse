@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    background-image: url(lobter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+}
+
+.projekter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    padding: 0%;
+    margin: 0%;
+}
+a, a:visited, a:active{
+    text-decoration: none !important;
+    color: rgb(166, 42, 42);
+}
+
+.Intresse_1, .Intresse_2, .Intresse_3{
+    display: flex;
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(194, 245, 188);
+    color: black;
+}
+.Intresse_1:hover, .Intresse_2:hover, .Intresse_3:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
+.Intresse_1, .Intresse_2, .Intresse_3:visited :active{
+    color: black;
+    text-decoration: none;
+}
+.int1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(47, 19, 19);
+    gap: 10vh;
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    width: 100vw;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: white;
+}
+.rubrick{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    height: 10vh;
+}
+@media screen and (max-width: 600px) {
+    .Intresse_1, .Intresse_2, .Intresse_3{
+        width: 100px;
+        height: 75px;
+        font-size: 12px;
+    }
+}
