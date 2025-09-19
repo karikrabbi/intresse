@@ -1,12 +1,12 @@
 body{
     background-color: black;
     background-image: url(lobter.jpg);
-  
     background-size: cover;
     padding: 0%;
     margin: 0%;
+    height: 100vh;
+    width: 100vw;
 }
-
 .projekter{
     display: flex;
     justify-content: space-around;
@@ -30,6 +30,7 @@ a, a:visited, a:active{
     justify-content: center;
     border: 5px solid rgb(194, 245, 188);
     color: black;
+    font-family: Arial, sans-serif;;
 }
 .Intresse_1:hover, .Intresse_2:hover, .Intresse_3:hover{
     background-color: aqua;
@@ -53,6 +54,7 @@ a, a:visited, a:active{
     margin-left: 35%;
     border:5px solid rgb(194, 245, 188);
     text-align: center;
+    font-family: Arial, sans-serif;
 }
 .contact{
     display: flex;
@@ -70,6 +72,7 @@ a, a:visited, a:active{
     color: white;
     text-shadow: 2px 2px 4px #000000;
     height: 10vh;
+    font-family: Arial, sans-serif;
 }
 @media screen and (max-width: 600px) {
     .Intresse_1, .Intresse_2, .Intresse_3{
@@ -93,4 +96,22 @@ a, a:visited, a:active{
     font-size: large;
     border: 5px solid rgb(194, 245, 188);
 
+}
+
+
+.kontaktinfo{
+    display: flex;
+    justify-content: center;
+    width: 15vw;
+    height: auto;
+    background-color: white;
+    border: 5px solid rgb(194, 245, 188);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.nest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
