@@ -83,7 +83,7 @@ a, a:visited, a:active{
 }
 
 .imga{
-    width: 20vw;
+    width: auto;
     height: 25vh;
     
 }
