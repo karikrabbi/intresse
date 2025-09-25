@@ -85,6 +85,7 @@ a, a:visited, a:active{
 .imga{
     width: 20vw;
     height: 25vh;
+    
 }
 
 .brod{
@@ -113,5 +114,6 @@ a, a:visited, a:active{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
